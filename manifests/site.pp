@@ -29,5 +29,5 @@ node default {
   # example code for the classroom
   include examples::puppetize
   
-  notify { "Hello Puppet user $USER": }
+  notify { "Hello Puppet user ${USER}": }
 }
